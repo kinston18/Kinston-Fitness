@@ -40,7 +40,7 @@
 
 
 .hero{
-    background: linear-gradient(to right, rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url('./images/gym2.jpg');
+    background: linear-gradient(to right, rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url('gym2.jpg');
     height: 100vh;
     background-position: center;
     background-size: cover;
@@ -131,49 +131,6 @@
     margin-right: 0.5rem;
     color: var(--red);
 }
-
-/*
-
-.memberships{
-    background: var(--black);
-    color: var(--white);
-    padding: 6rem calc((100vw - 1100px) /2);
-    text-align: center;
-}
-
-.memberships h1{
-    margin-bottom: 1rem;
-    font-size: clamp(2rem, 5vw, 3rem);
-    padding: 0 1rem;
-}
-
-.memberships__desc{
-    margin-bottom: 3rem;
-    font-size: clamp(1rem, 3vw, 1.5rem);
-    padding: 1rem;
-}
-
-.memberships__wrapper{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 1rem;
-}
-
-.memberships__card{
-    padding: 2rem;
-    min-height: 450px;
-    width: 325px;
-    background: var(--black);
-    color: var(--black);
-    border-radius: 10px;
-    display:flex;
-    flex-direction: column;
-    justify-content: space-between;
-} 
-
-*/
-
 
 .card{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
